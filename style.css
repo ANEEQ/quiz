@@ -1,0 +1,203 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:lightgray;
+}
+
+.container
+{
+    background-color:white;
+    border-radius: 40px;
+    width: 950px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#timer
+{
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 45px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-size: 1em; 
+}
+
+.startButton
+{
+    color:white;
+    background: midnightblue;
+    border-radius: 5px;
+    width: 220px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 1em;
+}
+
+    .ques-container
+{
+    font-size: 1.5em;   
+    margin: 50px auto;
+    width: 850px;  
+    padding: 20px 10px;
+    background-color:white;
+    border-radius: 10px;
+    padding-bottom: 8px;
+}
+
+#home
+{
+    background-color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:500px ;
+	font-size: 1.5em;   
+    margin: 50px auto;
+    width: 850px;  
+    padding: 20px 10px;
+    border-radius: 10px;
+    padding-bottom: 8px;
+}
+
+.image
+{
+    top: 30px;
+    left: 265px;
+    position: relative;
+}
+
+.home h3
+{
+        font-size: 3em;
+        text-align: center;
+        position: relative;
+        top:100px;
+}
+
+    .home input
+    {
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+    }
+
+    .home input
+    {
+        font-size: 1.2em;
+        left: 310px;
+        top: 200px;
+    }
+
+    .ans-container
+    {
+    margin: 10px auto;
+    width: 850px;  
+    line-height: 2em;
+    }
+
+    .ans-container input
+    {
+        margin-top: 20px;
+    }
+
+    .result
+    {
+    color: #fff;
+    width: 850px;  
+    margin: 50px auto;
+    padding: 20px 10px;
+    background-color: rgb(147, 151, 154);
+    border-radius: 10px;
+    padding-bottom: 8px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+    top: 250px;
+    }
+
+    .next
+    {
+    color:white;
+    background: mediumblue;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    }
+    
+/* For Mobile*/
+@media screen and (max-width: 940px)
+{
+    .ques-container
+    {
+    font-size: 1.2em;   
+    margin: 20px auto;
+    width: 100%;  
+    padding: 20px 5px;
+    border-radius: 21px;
+    }    
+    .ans-container
+    {
+    margin: 5px auto;
+    width: 100%;  
+    line-height: 2em;
+    }
+    .ans-container input
+    {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    #timer{
+    top: -20px;
+    right:20px;
+    padding: 0 2px;
+    font-size: 1.2em;
+    }
+    #home{
+    background-color: white;
+    height: 400px;
+    font-size: 1.5em;
+    margin: 50px auto;
+    width: 350px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    padding-bottom: 8px;
+    }
+
+    .image
+    {
+        left: 17px;
+    position: relative;
+    }
+
+    .home input
+    {
+    font-size: 1.2em;
+    left: 30%;
+    top: 120px;
+    }
+
+    .result
+    {
+    color: #fff;
+    width: 70%;
+    margin: 50px auto;
+    background-color: rgb(147, 151, 154);
+    border-radius: 10px;
+    padding-bottom: 8px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: 250px;
+    padding-top: 5px;
+    }
+}
